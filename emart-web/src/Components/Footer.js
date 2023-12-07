@@ -23,7 +23,7 @@ const Footer = () => {
                   aria-label="Your Email Address"
                   aria-describedby="basic-addon2"
                 />
-                <span class="input-group-text p-2" id="basic-addon2">
+                <span className="input-group-text p-2" id="basic-addon2">
                   Subscribe
                 </span>
               </div>
@@ -55,17 +55,17 @@ const Footer = () => {
                   shahdhaval201@gmail.com
                 </a>
                 <div className="social-icons d-flex align-items-center gap-30 mt-4">
-                  <a href="">
-                    <BsLinkedin className="text-white fs-4" />
+                  <a className="text-white" href="#">
+                    <BsLinkedin className="fs-4" to="" />
                   </a>
-                  <a href="">
-                    <BsInstagram className="text-white fs-4" />
+                  <a className="text-white" href="#">
+                    <BsInstagram className="fs-4" to="" />
                   </a>
-                  <a href="">
-                    <BsGithub className="text-white fs-4" />
+                  <a className="text-white" href="#">
+                    <BsGithub className="fs-4" to="" />
                   </a>
-                  <a href="">
-                    <BsYoutube className="text-white fs-4" />
+                  <a className="text-white" href="#">
+                    <BsYoutube className="fs-4" to="" />
                   </a>
                 </div>
               </div>
