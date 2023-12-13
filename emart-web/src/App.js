@@ -4,6 +4,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
 import "./App.css"
+import OurStore from './Components/OurStore';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path='about' element={<About />} />
         <Route path='contact' element={<Contact />} />
+        <Route path='store' element={<OurStore />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -207,7 +207,8 @@ const Home = () => {
         <div className="row">
         <h3 className="section-heading">Special Products</h3>
         </div>
-        <div className="row gap-5">
+        <div className="row gap-2">
+        <SpecialProducts />
         <SpecialProducts />
         <SpecialProducts />
         <SpecialProducts />
@@ -219,7 +220,40 @@ const Home = () => {
         <div className="row">
         <div className="col-3">
           <div className="famous-card position-relative">
-            <img src="images/famous-1.webp" alt="famous" />
+            <img src="images/newBanner.jpg" className="img-fluid" alt="famous" />
+            <div className="famous-content position-absolute">
+            <h5>Big Screen</h5>
+            <h6>Smart Watch Series</h6>
+            <p>From $399 $16.62/mo for 24 mo.*</p>
+            </div>
+
+          </div>
+        </div>
+        <div className="col-3">
+          <div className="famous-card position-relative">
+            <img src="images/newBanner.jpg" className="img-fluid" alt="famous" />
+            <div className="famous-content position-absolute">
+            <h5>Big Screen</h5>
+            <h6>Smart Watch Series</h6>
+            <p>From $399 $16.62/mo for 24 mo.*</p>
+            </div>
+
+          </div>
+        </div>
+        <div className="col-3">
+          <div className="famous-card position-relative">
+            <img src="images/newBanner.jpg" className="img-fluid" alt="famous" />
+            <div className="famous-content position-absolute">
+            <h5>Big Screen</h5>
+            <h6>Smart Watch Series</h6>
+            <p>From $399 $16.62/mo for 24 mo.*</p>
+            </div>
+
+          </div>
+        </div>
+        <div className="col-3">
+          <div className="famous-card position-relative">
+            <img src="images/newBanner.jpg" className="img-fluid" alt="famous" />
             <div className="famous-content position-absolute">
             <h5>Big Screen</h5>
             <h6>Smart Watch Series</h6>
