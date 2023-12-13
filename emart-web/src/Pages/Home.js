@@ -207,7 +207,44 @@ const Home = () => {
         <div className="row">
         <h3 className="section-heading">Special Products</h3>
         </div>
+        <div className="row gap-5">
         <SpecialProducts />
+        <SpecialProducts />
+        <SpecialProducts />
+        </div>
+      </div>
+      </section>
+      <section className="famous-wrapper py-5 home-wrapper-2">
+      <div className="container-xxl">
+        <div className="row">
+        <div className="col-3">
+          <div className="famous-card position-relative">
+            <img src="images/famous-1.webp" alt="famous" />
+            <div className="famous-content position-absolute">
+            <h5>Big Screen</h5>
+            <h6>Smart Watch Series</h6>
+            <p>From $399 $16.62/mo for 24 mo.*</p>
+            </div>
+
+          </div>
+        </div>
+        </div>
+       
+      </div>
+      </section>
+      <section className="populer-wrapper py-5 home-wrapper-2">
+      <div className="container-xxl">
+        <div className="row">
+          <div className="col-12">
+        <h3 className="section-heading">Our Popular Products</h3>
+        </div>
+        </div>
+        <div className="row">
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        </div>
       </div>
       </section>
       <section className="marquee-wrapper py-5">
